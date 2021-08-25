@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&display=swap');
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: 'Press Start 2P';
+  color: #fff;
+}
+
+.navbar {
+  background-color: #D3D3D9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5vh;
+  padding: 10px;
+}
+
+.webicon {
+  width: 21px;
+}
+
+.navbar-nav li {
+  padding: 10px;
+}
+
+
+.navbar-nav a:hover {
+  transform: scale(.9, .9);
+  text-decoration: underline;
+  color: inherit;
+  animation: rumble 0.3s linear;
+}
+
+@keyframes rumble {
+  25% {transform: rotate(10deg);}
+  75% {transform: rotate(-20deg);}
+}
+
+
+.about {
+  background-color: #3BB273;
+}
+/*experience button*/
+#button-one {
+  padding: 10px 2px;
+  border-radius: 10%;
+  box-shadow: -3px 3px 3px #339963;
+  color: #fff;
+}
+
+.experience {
+  background-color: #4D9DE0;
+}
+/*experience button*/
+#button-two {
+  padding: 10px 2px;
+  border-radius: 10%;
+  box-shadow: -3px 3px 3px #2F8DDA;
+  color: #fff;
+}
+
+.work {
+  background-color: #E15554;
+}
+/*work button*/
+#button-three {
+  padding: 10px 2px;
+  border-radius: 10%;
+  box-shadow: -3px 3px 3px #DA2F2F;
+  color: #fff;
+}
+
+/*contact button*/
+.contact {
+  background-color: #E1BC29;
+  padding: 10px 2px;
+  border-radius: 10%;
+  box-shadow: -3px 3px 3px #C4A31C;
+  color: #fff;
+}
+#button-four {
+  padding: 10px 2px;
+  border-radius: 10%;
+  box-shadow: -3px 3px 3px #C4A31C;
+  color: #fff;
+}
+
+.section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.obscure{
+    background-color: #34345238;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* padding:15% */
+}
+
+.img-custome{
+    width: 140px;
+    height: 140px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#app {
+  font-family: 'Press Start 2P';
+  background-color: #e9e9f0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.progress {
+  margin: 10px;
+}
+
+#v-pills-tabContent {
+  background: #D3D3D9;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.character-background-header {
+  width: 45%;
+}
+
+.character-background-content {
+  background: #D3D3D9;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.stat {
+  text-align: left;
+}
+
+.player-background {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 2px;
+  margin-left: 2px; 
+}
+
+.player-sheet {
+  padding-top: 15px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom: 15px;
+  background-color: #D3D3D9;
+  border-radius: 12px;
+}
+
+.accordion .btn {
+  white-space: normal;
+}
+
+#about {
+  margin-left: 15%;
+  margin-right: 15%;
+}
