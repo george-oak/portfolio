@@ -123,6 +123,8 @@ a {
   background: #D3D3D9;
   border-radius: 12px;
   margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .character-background-header {
@@ -150,7 +152,7 @@ a {
   padding-top: 15px;
   margin-right: 2px;
   margin-left: 2px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
   background-color: #D3D3D9;
   border-radius: 12px;
 }
@@ -162,4 +164,8 @@ a {
 #about {
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.job {
+
 }
